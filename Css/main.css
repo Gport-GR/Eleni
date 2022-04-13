@@ -1,0 +1,320 @@
+body {
+  margin: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#top1 {
+  height: 50px;
+  background-color: #EEF1F3;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contact1 {
+  position: relative;
+  float: right;
+  height: 50px;
+}
+
+.ul0 {
+  margin: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.ul1, .li1, .contact-tel, #phoneImg, #fbimag, .adress {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.contact2 {
+  margin-right: 150px;
+}
+
+.contact-tel {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 33px;
+  padding-top: 10px;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #8B7373;
+}
+
+.contact-tel:hover {
+  color: #3498DB;
+}
+
+.address {
+  color: #8B7373;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 3px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#phoneImg {
+  height: 31px;
+  padding-top: 8px;
+  padding-right: 4px;
+}
+
+#locationgif {
+  height: 20px;
+  padding-top: 12px;
+}
+
+.menu {
+  height: 100px;
+  background-color: white;
+}
+
+#logoimg {
+  height: 150px;
+  margin-left: 50px;
+  background: white;
+  border-radius: 10em;
+  padding: 10px 1rem 1rem 1rem;
+  z-index: 100;
+}
+
+h1 {
+  color: #EFB69D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  border: 3px solid #F16868;
+}
+
+.menu-btn_burger {
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+}
+
+.list {
+  padding-top: 40px;
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#list, .listit, li, a {
+  text-decoration: none;
+}
+
+.listit {
+  margin-left: 2rem;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: black;
+  cursor: pointer;
+  font-size: 24px;
+  display: none;
+}
+
+#home {
+  background: #F16868;
+  border-radius: 10em;
+  padding: 0.6em 2.3em;
+  margin-top: -0.6em;
+  color: black;
+}
+
+.mainphoto {
+  background: url("../images/1Eleni.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0px 90px;
+  opacity: 0.5;
+  margin-top: -10px;
+}
+
+.par1 {
+  padding-top: 130px;
+  padding-left: 10%;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.par1e {
+  font-size: 1.1rem;
+  padding-left: 10%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sticky + .maintext {
+  padding-top: 102px;
+}
+
+.maintext {
+  background: #3498DB url("../images/eleni01 (2).jpg");
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bio {
+  width: 28%;
+  height: 100vh;
+}
+
+#logoimg1 {
+  height: 150px;
+  float: right;
+  padding-right: 33%;
+}
+
+h2 {
+  clear: both;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.par2 {
+  text-align: center;
+}
+
+.par21 {
+  text-align: center;
+}
+
+#playt {
+  height: 150px;
+  padding-left: 33%;
+}
+
+@media only screen and (max-width: 680px) {
+  .contact2 {
+    margin-right: 5px;
+  }
+  .contact-tel {
+    padding-right: 3px;
+  }
+  .ul0 {
+    padding: 0;
+  }
+  #top1 {
+    height: 70px;
+  }
+  .address {
+    margin: 0;
+  }
+  .hamburger {
+    display: block;
+  }
+  .list {
+    display: none;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .list.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #logoimg {
+    height: 60px;
+    margin: 5px auto;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.3rem;
+  }
+  .menu {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
