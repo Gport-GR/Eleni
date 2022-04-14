@@ -158,6 +158,16 @@ nav {
           box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
 }
 
+.menu-btn_burger::before {
+  -webkit-transform: translateY(-16px);
+          transform: translateY(-16px);
+}
+
+.menu-btn_burger::after {
+  -webkit-transform: translateY(16px);
+          transform: translateY(16px);
+}
+
 .list {
   padding-top: 40px;
   float: right;

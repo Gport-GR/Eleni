@@ -135,6 +135,14 @@ nav {
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
 }
 
+.menu-btn_burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn_burger::after {
+    transform: translateY(16px);
+}
+
 .list {
     padding-top: 40px;
     float: right;
