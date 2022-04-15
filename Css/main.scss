@@ -91,6 +91,7 @@ h1 {
     color: #EFB69D;
     display: flex;
     margin-top: 0;
+    align-items: center;
 }
 
 header {
@@ -160,12 +161,11 @@ nav {
 }
 
 .list {
-    padding-top: 20px;
-    float: right;
     margin-right: 50px;
     list-style-type: none;
     display: flex;
     font-size: .8rem;
+    align-items: center;
 }
 
 #list, .listit, li, a {
@@ -188,7 +188,6 @@ nav {
     background: #F16868;
     border-radius: 10em;
     padding: 0.6em 2.3em;
-    margin-top: -0.6em;
     color: black;
 }
 
@@ -343,7 +342,6 @@ h3 {
         height: 60px;
         margin: 5px 10px;
         padding: 10px .5rem .5rem .5rem;
-        opacity: 1;
     }
 
     .listit {
