@@ -32,7 +32,7 @@ body {
 }
 
 .contact2 {
-    margin-right: 150px;
+    margin-right: 50px;
 
 }
 
@@ -90,11 +90,13 @@ body {
 h1 {
     color: #EFB69D;
     display: flex;
+    margin-top: 0;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    height: 100px;
     
 }
 
@@ -105,21 +107,21 @@ nav {
 
 .menu-btn {
     position: relative;
-    display: flex;
+    display: none;
+    float: right;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 47px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    border: 3px solid #F16868;
 }
 
 .menu-btn_burger {
-    width: 50px;
-    height: 6px;
+    width: 40px;
+    height: 4.8px;
     background: black;
-    border-radius: 5px;
+    border-radius: 4px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
     transition: all .5s ease-in-out;
 }
@@ -128,27 +130,42 @@ nav {
 .menu-btn_burger::after {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 6px;
+    width: 40px;
+    height: 4.8px;
     background: black;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
 }
 
 .menu-btn_burger::before {
-    transform: translateY(-16px);
+    transform: translateY(-13px);
 }
 
 .menu-btn_burger::after {
-    transform: translateY(16px);
+    transform: translateY(13px);
+}
+
+/*Animation*/
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn_burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
 }
 
 .list {
-    padding-top: 40px;
+    padding-top: 20px;
     float: right;
     margin-right: 50px;
     list-style-type: none;
     display: flex;
+    font-size: .8rem;
 }
 
 #list, .listit, li, a {
@@ -157,17 +174,14 @@ nav {
 
 .listit {
     margin-left: 2rem;
+    color: #3498DB;
+}
+
+.listit:hover {
+    color: #F16868;
 }
 
 
-.hamburger {
-    background-color: transparent;
-    border: 0;
-    color: black;
-    cursor: pointer;
-    font-size: 24px;
-    display: none;
-}
 
 
 #home {
@@ -176,6 +190,17 @@ nav {
     padding: 0.6em 2.3em;
     margin-top: -0.6em;
     color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.sticky + .mainphoto {
+    padding-top: 100px;
 }
 
 
@@ -189,7 +214,7 @@ nav {
     background-repeat: no-repeat;
     background-position: 0px 90px;
     opacity: 0.5;
-    margin-top: -10px;
+    margin-top: -30px;
     
 }
 
@@ -206,16 +231,6 @@ nav {
 }
 
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-.sticky + .maintext {
-    padding-top: 102px;
-}
 
 
 .maintext {
@@ -264,6 +279,10 @@ h3 {
 
 @media only screen and (max-width: 680px) {
 
+    .menu-btn {
+        display: flex;
+    }
+
     .contact2 {
         margin-right: 5px;
     }
@@ -277,40 +296,108 @@ h3 {
     }
 
     #top1 {
-        height: 70px;
+        height: 45px;
     }
 
     .address {
         margin: 0;
+        font-size: .7rem;
     }
 
-    .hamburger {
+    nav {
         display: block;
+        position: absolute;
+        width: 100%;
+        margin-top: 70px;
+        height: 120px;
     }
+
 
     .list {
         display: none;
-        width: 100%;
-        flex-direction: column;
+        padding: 0;
+        position: relative;
+    }
+
+
+
+    #home {
+        background: #F16868;
+        border-radius: 10em;
+        padding: 0.2em 1.1em;
+        color: black;
     }
 
     .list.show {
+        background: #3498DB url('../images/eleni01\ \(2\).jpg');
         display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 120px;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
     }
 
     #logoimg {
         height: 60px;
-        margin: 5px auto;
+        margin: 5px 10px;
+        padding: 10px .5rem .5rem .5rem;
+    }
+
+    .listit {
+        margin-left: 0;
+        line-height: 2.5em;
     }
 
     h1 {
         margin: 0;
-        font-size: 1.3rem;
+        font-size: 0.9rem;
+        padding-top: 12px;
+        height: 50px;
     }
 
     .menu {
         height: 60px;
     }
+
+    .menu.show {
+        height: 200px;
+    }
+
+    header.show {
+        height: 200px;
+    }
+
+    .mainphoto {
+        background-size: contain;
+        background-position: 0 60px;
+        height: 200px;
+        margin-top: -30px;
+        
+    }
+
+    .mainphoto.show {
+        background-position: 0 240px;
+    }
+
+    .par1 {
+        font-size: .8rem;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    .par1e {
+        font-size: .7rem;
+        padding-left: 10px;
+    }
+
+
+
+    .sticky+.mainphoto {
+        padding-top: 60px;
+    }
+
 
 }
 
