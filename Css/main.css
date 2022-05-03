@@ -13,9 +13,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #contact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   float: right;
   height: 50px;
@@ -23,40 +32,21 @@ body {
 
 .ul0 {
   margin: 0;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   list-style-type: none;
 }
 
-.ul1, .li1, .contact-tel, #phoneImg, #fbimag, .adress {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: 0;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.contact2 {
-  margin-right: 50px;
-}
-
-.contact-tel {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding-right: 33px;
-  padding-top: 10px;
-  font-weight: bolder;
-  font-size: 1.4rem;
-  letter-spacing: 0.1rem;
-  text-decoration: none;
-  color: #8B7373;
-}
-
-.contact-tel:hover {
-  color: #3498DB;
+#locationgif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .address {
@@ -72,15 +62,55 @@ body {
           align-items: center;
 }
 
+.ul1, .li1, .contact-tel, #phoneImg, #fbimg, .adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.ul1 {
+  width: 100%;
+}
+
+.contact2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #8B7373;
+}
+
+.contact-tel:hover {
+  color: #3498DB;
+}
+
 #phoneImg {
   height: 31px;
-  padding-top: 8px;
   padding-right: 4px;
 }
 
-#locationgif {
-  height: 20px;
-  padding-top: 12px;
+#fbimg {
+  float: right;
 }
 
 .menu {
