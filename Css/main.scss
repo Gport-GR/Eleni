@@ -289,6 +289,24 @@ h3 {
     padding-left: 33%;
 }
 
+.bottom {
+    display: flex;
+    height: 300px;
+    background-color: #CADCDA;
+}
+
+.bottom1 {
+    width: 33%;
+    height: 100%;
+}
+
+.bottom2 {
+    width: 34%;
+}
+
+.bottom3 {
+    width: 33%
+}
 
 
 @media only screen and (max-width: 680px) {
