@@ -249,7 +249,7 @@ nav {
 
 .maintext {
     background: #3498DB url('../images/eleni01\ \(2\).jpg');
-    height: 100vh;
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -296,16 +296,67 @@ h3 {
 }
 
 .bottom1 {
-    width: 33%;
+    width: 34%;
     height: 100%;
 }
 
 .bottom2 {
-    width: 34%;
+    width: 36%;
+}
+
+.contact3 {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+
+    text-align: center;
+    color: #EFB59C;
+    margin: 0;
+}
+
+.redphone {
+    height: 20px;
+}
+
+.imgbutton {
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-top: 10px;
+    
+}
+
+.contact-tel2 {
+    padding-left: 10px;
+    
+}
+
+.email {
+    height: 20px;
+    display: block;
+    padding-top: 15px;
+}
+
+.markmap {
+    padding-top: 15px;
+}
+
+.contact4 {
+    font-size: .8rem;
+    color: #3498DB;
 }
 
 .bottom3 {
-    width: 33%
+    width: 30%;
+    display: flex;
+}
+
+.map {
+    width: 100%;
+    
 }
 
 
