@@ -43,6 +43,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 11px;
   height: 22px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -357,7 +358,7 @@ h3 {
   }
   .address {
     margin: 0;
-    font-size: .7rem;
+    font-size: .6rem;
   }
   header {
     height: 45px;
