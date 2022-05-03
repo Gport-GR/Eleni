@@ -56,7 +56,8 @@ body {
     font-size: 1rem;
     font-weight: bold;
     padding-left: 3px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
 }
 
 #phoneImg {
