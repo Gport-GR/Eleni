@@ -532,7 +532,7 @@ h3 {
     position: absolute;
     width: 100%;
     margin-top: 70px;
-    height: 900px;
+    height: auto;
   }
   .list {
     display: none;
@@ -604,6 +604,7 @@ h3 {
     padding-top: 60px;
   }
   .bottom {
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -618,6 +619,9 @@ h3 {
   }
   .bottom2 {
     width: 100%;
+  }
+  .contact-tel2 {
+    padding: 0;
   }
   .bottom3 {
     width: 100%;
