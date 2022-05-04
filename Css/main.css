@@ -603,5 +603,24 @@ h3 {
   .sticky + .mainphoto {
     padding-top: 60px;
   }
+  .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .bottom0 {
+    width: 100%;
+  }
+  .bottom1 {
+    width: 100%;
+  }
+  .bottom2 {
+    width: 100%;
+  }
+  .bottom3 {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
