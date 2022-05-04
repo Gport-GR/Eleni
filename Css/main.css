@@ -346,13 +346,86 @@ h3 {
   background-color: #CADCDA;
 }
 
+.bottom0 {
+  width: 22%;
+  height: 100%;
+}
+
+.name {
+  color: #E67367;
+}
+
+.descr {
+  color: #3397DB;
+  padding: 0;
+  margin: 0;
+}
+
+.logobottom {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.logobottom1 {
+  height: 40px;
+}
+
 .bottom1 {
-  width: 34%;
+  width: 24%;
   height: 100%;
 }
 
 .bottom2 {
-  width: 36%;
+  width: 24%;
+  height: 100%;
+}
+
+.socialheader {
+  text-align: center;
+  color: #F14F3E;
+  padding-top: 25px;
+}
+
+.social-list {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.facebook {
+  color: #3397DB;
+}
+
+.linkedin {
+  color: #3397DB;
+  padding-top: 20px;
 }
 
 .contact3 {
@@ -360,7 +433,11 @@ h3 {
   width: 100%;
   padding-top: 25px;
   text-align: center;
-  color: #EFB59C;
+  color: #F14F3E;
+  margin: 0;
+}
+
+h3 {
   margin: 0;
 }
 
@@ -389,12 +466,17 @@ h3 {
 
 .contact-tel2 {
   padding-left: 10px;
+  color: #3397DB;
 }
 
 .email {
   height: 20px;
   display: block;
   padding-top: 15px;
+}
+
+.email1 {
+  color: #3397DB;
 }
 
 .markmap {
