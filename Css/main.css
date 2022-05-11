@@ -370,6 +370,7 @@ nav {
 
 .pserv {
   font-size: .8rem;
+  line-height: .9rem;
 }
 
 .serv1a {
@@ -378,7 +379,7 @@ nav {
 
 .serv1par {
   text-align: center;
-  height: 90px;
+  height: 83px;
 }
 
 .serv-button {
@@ -423,7 +424,7 @@ nav {
 }
 
 .servises2 {
-  width: 70%;
+  width: 55%;
   height: 50%;
   margin: 0 auto;
   display: -webkit-box;
@@ -433,6 +434,39 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.servise21 {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.servise22 {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.servise23 {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .bottom {
