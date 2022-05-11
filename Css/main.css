@@ -745,7 +745,7 @@ h3 {
   .mainphoto {
     background-size: contain;
     background-position: 0 60px;
-    height: 200px;
+    height: 160px;
     margin-top: -30px;
   }
   .mainphoto.show {
@@ -764,7 +764,7 @@ h3 {
     padding-top: 60px;
   }
   .servises {
-    height: 1800px;
+    height: 1500px;
   }
   .servises101, .servises2 {
     -webkit-box-orient: vertical;
@@ -777,10 +777,10 @@ h3 {
             align-items: center;
   }
   .servises101 {
-    height: 57%;
+    height: auto;
   }
   .servises2 {
-    height: 43%;
+    height: auto;
   }
   .care {
     padding-top: 0;
