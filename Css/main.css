@@ -344,16 +344,19 @@ nav {
 
 .serv1head {
   text-align: center;
+  height: 44px;
 }
 
 .care {
   height: 60px;
+  padding-top: 15px;
 }
 
 .h2serv {
   color: #7E7E7E;
   margin: 0;
   font-size: 1.1rem;
+  line-height: 1.1rem;
 }
 
 .serv1img {
@@ -365,12 +368,17 @@ nav {
           justify-content: center;
 }
 
+.pserv {
+  font-size: .8rem;
+}
+
 .serv1a {
   text-align: center;
 }
 
 .serv1par {
   text-align: center;
+  height: 90px;
 }
 
 .serv-button {
@@ -383,14 +391,48 @@ nav {
 
 .servise12 {
   width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .servise13 {
   width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .servise14 {
   width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.servises2 {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .bottom {
