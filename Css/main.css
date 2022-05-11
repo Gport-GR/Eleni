@@ -129,7 +129,7 @@ body {
 }
 
 h1 {
-  color: #EFB69D;
+  color: #7E7E7E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,7 +272,7 @@ nav {
 .mainphoto {
   background: url("../images/1Eleni.png");
   background-size: cover;
-  height: 100vh;
+  height: 500px;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -293,49 +293,104 @@ nav {
   padding-left: 10%;
 }
 
-.maintext {
-  background: #3498DB url("../images/eleni01 (2).jpg");
+.servises {
+  background: url("../images/eleni01 (2).jpg");
   height: 700px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.bio {
-  width: 28%;
-  height: 100vh;
+.servises01 {
+  color: #7E7E7E;
+  margin: 0;
 }
 
-#logoimg1 {
-  height: 150px;
-  float: right;
-  padding-right: 33%;
-}
-
-h2 {
-  clear: both;
+.servises1 {
+  width: 60%;
+  height: 50px;
+  margin: 0 auto;
   text-align: center;
 }
 
-h3 {
+.servises101 {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.servise11 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.serv1head {
   text-align: center;
 }
 
-.par2 {
+.care {
+  height: 60px;
+}
+
+.h2serv {
+  color: #7E7E7E;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.serv1img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.serv1a {
   text-align: center;
 }
 
-.par21 {
+.serv1par {
   text-align: center;
 }
 
-#playt {
-  height: 150px;
-  padding-left: 33%;
+.serv-button {
+  background: #F16868;
+  border-radius: 1.2em;
+  padding: 0.6em 1em;
+  color: black;
+  font-size: .8rem;
+}
+
+.servise12 {
+  width: 25%;
+}
+
+.servise13 {
+  width: 25%;
+}
+
+.servise14 {
+  width: 25%;
 }
 
 .bottom {
