@@ -669,8 +669,33 @@ h3 {
         padding-top: 60px;
     }
 
-    #logoimg1 {
-        display: none;
+    .servises {
+        height: 1800px;
+    }
+
+    .servises101, .servises2 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .servises101 {
+        height: 57%;
+    }
+
+    .servises2 {
+        height: 43%;
+    }
+
+    .care {
+        padding-top: 0;
+    }
+    .serv1a {
+        padding-bottom: 33px;
+    }
+
+    .servise11, .servise12, .servise13, .servise14, .servise21, .servise22, .servise23 {
+        width: 100%;
     }
 
     .bottom {
