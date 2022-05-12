@@ -214,19 +214,19 @@ nav {
 }
 
 .sticky + .mainphoto {
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 
 
 .mainphoto {
-    background: url('../images/1Eleni.png');
+    background: url('../images/main.jpeg');
     background-size: cover;
     height: 500px;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 0px 90px;
+    background-position: center;
     opacity: 0.5;
     margin-top: -30px;
     
@@ -242,6 +242,7 @@ nav {
 .par1e {
     font-size: 1.1rem;
     padding-left: 10%;
+    margin: 0;
 }
 
 
@@ -507,12 +508,7 @@ h3 {
     
 }
 
-@media only screen and (max-width: 1250px) {
 
-    .mainphoto {
-        background-size: contain;
-    }
-}
 
 @media only screen and (max-width: 950px) {
     h1 {
@@ -521,8 +517,13 @@ h3 {
         padding: 0;
     }
 
+    .par1 {
+        padding-top: 40px;
+    }
+
     #logoimg {
         margin-left: 14px;
+        height: 110px;
     }
 
     .list {
@@ -535,9 +536,8 @@ h3 {
     }
 
     .mainphoto {
-        background-position: 0 110px;
+        height: 330px;
         background-size: contain;
-        height: auto;
     }
 }
 
@@ -581,7 +581,7 @@ h3 {
         display: block;
         position: absolute;
         width: 100%;
-        margin-top: 70px;
+        margin-top: 60px;
         height: auto;
     }
 
@@ -633,7 +633,7 @@ h3 {
     }
 
     .menu.show {
-        height: 200px;
+        height: 190px;
     }
 
     header.show {
@@ -641,21 +641,29 @@ h3 {
     }
 
     .mainphoto {
-        background-size: contain;
-        background-position: 0 60px;
+        background: url("../images/main1.jpg");
         height: 160px;
-        margin-top: -30px;
+        margin-top: -10px;
+        background-size: cover;
         
     }
 
     .mainphoto.show {
-        background-position: 0 240px;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: contain;
+        margin: 0;
+        height: 160px;
+        
+        
+        
     }
 
     .par1 {
         font-size: .8rem;
         padding-top: 50px;
         padding-left: 10px;
+        margin: 0;
     }
 
     .par1e {
@@ -665,8 +673,8 @@ h3 {
 
 
 
-    .sticky+.mainphoto {
-        padding-top: 60px;
+    .sticky + .mainphoto {
+        padding-top: 0px;
     }
 
     .servises {
