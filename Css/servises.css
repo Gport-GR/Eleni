@@ -1,0 +1,456 @@
+body {
+  margin: 0;
+  font-family: 'Zen Antique Soft', serif;
+}
+
+#top1 {
+  height: 50px;
+  background-color: #EEF1F3;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  float: right;
+  height: 50px;
+}
+
+.ul0 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+#locationgif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 11px;
+  height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.address {
+  color: #8B7373;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ul1,
+.li1,
+.contact-tel,
+#phoneImg,
+#fbimg,
+.adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.ul1 {
+  width: 100%;
+}
+
+.contact2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #8B7373;
+}
+
+.contact-tel:hover {
+  color: #3498DB;
+}
+
+#phoneImg {
+  height: 31px;
+  padding-right: 4px;
+}
+
+#fbimg {
+  float: right;
+}
+
+.menu {
+  height: 100px;
+  background-color: white;
+}
+
+#logoimg {
+  height: 150px;
+  margin-left: 50px;
+  background: white;
+  border-radius: 10em;
+  padding: 10px 1rem 1rem 1rem;
+  z-index: 100;
+}
+
+h1 {
+  color: #7E7E7E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 380px;
+}
+
+.menu-btn {
+  position: relative;
+  display: none;
+  float: right;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 47px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger {
+  width: 40px;
+  height: 4.8px;
+  background: black;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 4.8px;
+  background: black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+          box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before {
+  -webkit-transform: translateY(-13px);
+          transform: translateY(-13px);
+}
+
+.menu-btn_burger::after {
+  -webkit-transform: translateY(13px);
+          transform: translateY(13px);
+}
+
+/*Animation*/
+.menu-btn.open .menu-btn_burger {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.menu-btn.open .menu-btn_burger::before {
+  -webkit-transform: rotate(45deg) translate(35px, -35px);
+          transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn_burger::after {
+  -webkit-transform: rotate(-45deg) translate(35px, 35px);
+          transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.list {
+  margin-right: 10px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#list,
+.listit,
+li,
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+.listit {
+  margin-left: 10px;
+  color: #3498DB;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.listit:hover {
+  color: #F16868;
+}
+
+#home {
+  background: #F16868;
+  border-radius: 10em;
+  padding: 4px 22px;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sticky + .mainphoto {
+  padding-top: 130px;
+}
+
+.mainphoto {
+  background: url("../images/start.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  background-color: #CADCDA;
+}
+
+.bottom0 {
+  width: 22%;
+  height: 100%;
+}
+
+.name {
+  color: #E67367;
+}
+
+.descr {
+  color: #3397DB;
+  padding: 0;
+  margin: 0;
+}
+
+.logobottom {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.logobottom1 {
+  height: 40px;
+}
+
+.bottom1 {
+  width: 24%;
+  height: 100%;
+}
+
+.bottom2 {
+  width: 24%;
+  height: 100%;
+}
+
+.socialheader {
+  text-align: center;
+  color: #F14F3E;
+  padding-top: 25px;
+}
+
+.social-list {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.facebook {
+  color: #3397DB;
+}
+
+.linkedin {
+  color: #3397DB;
+  padding-top: 20px;
+}
+
+.contact3 {
+  display: block;
+  width: 100%;
+  padding-top: 25px;
+  text-align: center;
+  color: #F14F3E;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.redphone {
+  height: 20px;
+}
+
+.imgbutton {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-tel2 {
+  padding-left: 10px;
+  color: #3397DB;
+}
+
+.email {
+  height: 20px;
+  display: block;
+  padding-top: 15px;
+}
+
+.email1 {
+  color: #3397DB;
+}
+
+.markmap {
+  padding-top: 15px;
+}
+
+.contact4 {
+  font-size: .8rem;
+  color: #3498DB;
+}
+
+.bottom3 {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map {
+  width: 100%;
+}
+/*# sourceMappingURL=servises.css.map */
