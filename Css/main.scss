@@ -537,7 +537,7 @@ h3 {
 
     .mainphoto {
         height: 330px;
-        background-size: contain;
+        width: 100%;
     }
 }
 
@@ -641,10 +641,10 @@ h3 {
     }
 
     .mainphoto {
-        background: url("../images/main1.jpg");
-        height: 250px;
+        background-size: contain;
+        background-position: 0 30px;
+        height: 210px;
         margin-top: -10px;
-        background-size: cover;
         
     }
 
@@ -737,6 +737,17 @@ h3 {
         width: 100%;
     }
 
+
+}
+
+@media only screen and (max-width: 430px) {
+    .mainphoto {
+        background-size: contain;
+        background-position: 0 80px;
+        height: 180px;
+        margin-top: -10px;
+
+    }
 
 }
 
