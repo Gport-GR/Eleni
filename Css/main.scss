@@ -582,7 +582,7 @@ h3 {
         position: absolute;
         width: 100%;
         margin-top: 60px;
-        height: auto;
+        height: 130px;
     }
 
 
@@ -653,10 +653,10 @@ h3 {
         background-attachment: scroll;
         background-size: cover;
         margin: 0;
-        height: 160px;
-        
-        
-        
+    }
+
+    .sticky + .mainphoto.show {
+        padding-top: 185px;
     }
 
     .par1 {
