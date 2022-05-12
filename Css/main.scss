@@ -176,7 +176,7 @@ nav {
 }
 
 .list {
-    margin-right: 25px;
+    margin-right: 10px;
     list-style-type: none;
     display: flex;
     font-size: .8rem;
@@ -188,8 +188,9 @@ nav {
 }
 
 .listit {
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: #3498DB;
+    display:inline-flex;
 }
 
 .listit:hover {
@@ -620,7 +621,7 @@ h3 {
 
     .listit {
         margin-left: 0;
-        line-height: 2.5em;
+        line-height: 25px;
     }
 
     h1 {
