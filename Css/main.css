@@ -749,7 +749,7 @@ h3 {
   .mainphoto.show {
     background-position: center;
     background-attachment: scroll;
-    background-size: contain;
+    background-size: cover;
     margin: 0;
     height: 160px;
   }
@@ -764,7 +764,7 @@ h3 {
     padding-left: 10px;
   }
   .sticky + .mainphoto {
-    padding-top: 0px;
+    padding-top: 65px;
   }
   .servises {
     height: 1500px;
