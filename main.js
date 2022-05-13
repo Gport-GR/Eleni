@@ -37,3 +37,16 @@ const hamburger = document.getElementById('menu-btn');
     });
 
 
+
+
+/*var scrollAmount = document.getElementsByClassName(".menu").height;
+var element = document.getElementsByClassName("serv-button");
+
+element.addEventListener("click", scrollPage);
+
+function scrollPage() {
+    var currentPositionOfPage = window.scrollY;
+    window.scrollTo(0, currentPositionOfPage + scrollAmount);
+}
+*/
+
