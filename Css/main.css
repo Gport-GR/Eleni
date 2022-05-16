@@ -323,10 +323,9 @@ nav {
           flex-direction: column;
 }
 
-.servises-i {
+servises-i {
   height: auto;
   width: 100%;
-  display: flexbox;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

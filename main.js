@@ -23,6 +23,7 @@ menuBtn.addEventListener('click', () => {
     }
 })
 
+
 const hamburger = document.getElementById('menu-btn');
     const navUL = document.getElementById('list');
     const menu = document.getElementById('myHeader');
@@ -39,8 +40,8 @@ const hamburger = document.getElementById('menu-btn');
 
 
 
-/*var scrollAmount = document.getElementsByClassName(".menu").height;
-var element = document.getElementsByClassName("serv-button");
+/*var scrollAmount = document.getElementsByClassName('.menu').height;
+var element = document.getElementsByClassName('serv-button');
 
 element.addEventListener("click", scrollPage);
 
@@ -48,5 +49,18 @@ function scrollPage() {
     var currentPositionOfPage = window.scrollY;
     window.scrollTo(0, currentPositionOfPage + scrollAmount);
 }
+
+
+
+
+let servButton = document.querySelector('.serv-button')
+servButton.addEventListener('click', () => {
+    function scrollWin();
+})
+
+function scrollWin() {
+  window.scrollBy(0, -1000);
+}
+
 */
 
