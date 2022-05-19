@@ -40,9 +40,7 @@ const hamburger = document.getElementById('menu-btn');
 
 
 
-function scrollWin() {
-  window.scrollBy(0, -1000);
-}
+
 
 /*var scrollAmount = document.getElementsByClassName('.menu').height;
 var element = document.getElementsByClassName('serv-button');
@@ -61,6 +59,11 @@ let servButton = document.querySelector('.serv-button')
 servButton.addEventListener('click', () => {
     function scrollWin();
 })
+
+function scrollWin() {
+  window.scrollBy(0, -1000);
+}
+
 
 function scrollWin() {
   window.scrollBy(0, -1000);

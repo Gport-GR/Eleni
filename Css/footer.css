@@ -58,6 +58,7 @@
   text-align: center;
   color: #F14F3E;
   padding-top: 25px;
+  margin: 0;
 }
 
 .social-list {
@@ -94,10 +95,6 @@
   padding-top: 25px;
   text-align: center;
   color: #F14F3E;
-  margin: 0;
-}
-
-h3 {
   margin: 0;
 }
 
