@@ -40,6 +40,10 @@ const hamburger = document.getElementById('menu-btn');
 
 
 
+function scrollWin() {
+  window.scrollBy(0, -1000);
+}
+
 /*var scrollAmount = document.getElementsByClassName('.menu').height;
 var element = document.getElementsByClassName('serv-button');
 

@@ -1,0 +1,35 @@
+.mainphoto {
+  background: url("../images/main2.jpeg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  margin-top: -30px;
+}
+
+.mainphoto-serv {
+  background: url("../images/Start.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.par1 {
+  padding-top: 130px;
+  padding-left: 10%;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.par1e {
+  font-size: 1.1rem;
+  padding-left: 10%;
+  margin: 0;
+}
+/*# sourceMappingURL=photo.css.map */

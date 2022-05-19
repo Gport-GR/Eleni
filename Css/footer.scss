@@ -1,0 +1,132 @@
+.bottom {
+    display: flex;
+    height: 300px;
+    background-color: #CADCDA;
+}
+
+.bottom0 {
+    width: 22%;
+    height: 100%;
+}
+
+.name {
+    color: #E67367;
+}
+
+.descr {
+    color:#3397DB;
+    padding: 0;
+    margin: 0;
+}
+
+.logobottom {
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-top: 20px;
+}
+
+.logobottom1 {
+    height: 40px;
+}
+
+.bottom1 {
+    width: 24%;
+    height: 100%;
+}
+
+.bottom2 {
+    width: 24%;
+    height: 100%;
+}
+
+.socialheader {
+    text-align: center;
+    color: #F14F3E;
+    padding-top: 25px;
+}
+
+.social-list {
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-top: 10px;
+}
+
+.facebook {
+    color: #3397DB;
+}
+
+.linkedin {
+    color: #3397DB;
+    padding-top: 20px;
+}
+
+.contact3 {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    color: #F14F3E;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.redphone {
+    height: 20px;
+}
+
+.imgbutton {
+    clear: both;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding-top: 10px;
+    
+}
+
+.contact-tel2 {
+    padding-left: 10px;
+    color: #3397DB;
+    
+}
+
+.email {
+    height: 20px;
+    display: block;
+    padding-top: 15px;
+}
+
+.email1 {
+    color: #3397DB;
+}
+
+.markmap {
+    padding-top: 15px;
+}
+
+.contact4 {
+    font-size: .8rem;
+    color: #3498DB;
+}
+
+.bottom3 {
+    width: 30%;
+    display: flex;
+}
+
+.map {
+    width: 100%;
+    
+}

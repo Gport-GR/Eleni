@@ -1,0 +1,128 @@
+.menu {
+    height: 100px;
+    background-color: white;
+}
+
+#logoimg {
+    height: 150px;
+    margin-left: 50px;
+    background: white;
+    border-radius: 10em;
+    padding: 10px 1rem 1rem 1rem;
+    z-index: 100;
+}
+
+h1 {
+    color: #7E7E7E;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+nav {
+    display: flex;
+    min-width: 380px;
+}
+
+.menu-btn {
+    position: relative;
+    display: none;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 47px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger {
+    width: 40px;
+    height: 4.8px;
+    background: black;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4.8px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn_burger::before {
+    transform: translateY(-13px);
+}
+
+.menu-btn_burger::after {
+    transform: translateY(13px);
+}
+
+/*Animation*/
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn_burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.list {
+    margin-right: 10px;
+    list-style-type: none;
+    display: flex;
+    font-size: .8rem;
+    align-items: center;
+}
+
+#list, .listit, li, a {
+    text-decoration: none;
+    padding: 0;
+}
+
+.listit {
+    margin-left: 10px;
+    color: #3498DB;
+    display:inline-flex;
+}
+
+.listit:hover {
+    color: #F16868;
+}
+
+#home {
+    background: #F16868;
+    border-radius: 10em;
+    padding: 4px 22px;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.sticky + .mainphoto {
+    padding-top: 130px;
+}
