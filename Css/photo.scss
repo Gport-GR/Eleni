@@ -20,6 +20,16 @@
     background-position: center;
 }
 
+.mainphoto-bio {
+    background: url('../images/bio.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .par1 {
     padding-top: 130px;
     padding-left: 10%;
@@ -31,4 +41,12 @@
     font-size: 1.1rem;
     padding-left: 10%;
     margin: 0;
+}
+
+.bio-par {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #3498DB;
 }
