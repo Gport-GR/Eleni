@@ -5,6 +5,7 @@ body {
 
 #top1 {
     height: 50px;
+    width: 100%;
     background-color: #EEF1F3;
     margin: 0;
     display: flex;
@@ -65,8 +66,8 @@ body {
 .contact-tel {
     display: flex;
     font-weight: bolder;
-    font-size: 1.4rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
     text-decoration: none;
     color: #8B7373;
 }
@@ -77,9 +78,9 @@ body {
 
 #phoneImg {
     height: 31px;
-    padding-right: 4px;
+    padding-right: 14px;
 }
 
 #fbimg {
-    float: right;
+    padding-left: 30px;
 }

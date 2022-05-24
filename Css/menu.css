@@ -12,12 +12,12 @@
   z-index: 100;
 }
 
-h1 {
+.nameh1 {
   color: #7E7E7E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0;
+  margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -113,12 +113,13 @@ nav {
 }
 
 .list {
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: .8rem;
+  font-size: 1rem;
+  font-weight: bold;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -132,9 +133,7 @@ nav {
 .listit {
   margin-left: 10px;
   color: #3498DB;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  white-space: nowrap;
 }
 
 .listit:hover {
