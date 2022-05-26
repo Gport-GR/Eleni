@@ -157,4 +157,16 @@ nav {
 .sticky + .mainphoto {
   padding-top: 80px;
 }
+
+.sticky + .mainphoto-contact {
+  padding-top: 80px;
+}
+
+.sticky + .mainphoto-bio {
+  padding-top: 80px;
+}
+
+.sticky + .mainphoto-serv {
+  padding-top: 80px;
+}
 /*# sourceMappingURL=menu.css.map */
