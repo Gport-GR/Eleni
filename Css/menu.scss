@@ -1,10 +1,10 @@
 .menu {
-    height: 100px;
+    height: 80px;
     background-color: white;
 }
 
 #logoimg {
-    height: 150px;
+    height: 120px;
     margin-left: 50px;
     background: white;
     border-radius: 10em;
@@ -23,13 +23,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     
 }
 
 nav {
     display: flex;
-    min-width: 380px;
+    min-width: 460px;
 }
 
 .menu-btn {
@@ -87,7 +87,7 @@ nav {
 }
 
 .list {
-    margin: 0 10px 0 0;
+    margin-right: 10px;
     list-style-type: none;
     display:flex;
     font-size: 1rem;
@@ -125,5 +125,5 @@ nav {
 }
 
 .sticky + .mainphoto {
-    padding-top: 130px;
+    padding-top: 80px;
 }
