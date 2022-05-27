@@ -146,14 +146,9 @@
     }
 
     .mainphoto.show {
-        background-position: center;
+        background-position: 0 20px;
         background-attachment: scroll;
-        background-size: cover;
-        margin: 0;
-    }
-
-    .sticky + .mainphoto.show {
-        padding-top: 165px;
+        height: 230px;
     }
 
     .par1 {
@@ -168,8 +163,13 @@
         padding-left: 10px;
     }
 
-    .sticky+.mainphoto {
-        padding-top: 45px;
+    .sticky + .mainphoto {
+        background-position: 0 190px;
+        padding-top: 50px;
+    }
+
+    .sticky + .mainphoto.show {
+        padding-top: 190px;
     }
     
     .sticky+.mainphoto-contact {
@@ -249,6 +249,7 @@
 @media only screen and (max-width: 430px) {
     .mainphoto {
         background-position: 0 40px;
+        background-size: contain;
         height: 170px;
     }
 }
