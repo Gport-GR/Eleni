@@ -12,10 +12,13 @@
     z-index: 100;
 }
 
+.h1name {
+    z-index: 100;
+}
+
+
 .nameh1 {
     color: #7E7E7E;
-    display: flex;
-    margin: 0;
     align-items: center;
     font-size: 1.5rem;
 }
@@ -31,6 +34,8 @@ nav {
     display: flex;
     min-width: 460px;
 }
+
+
 
 .menu-btn {
     position: relative;
@@ -96,7 +101,7 @@ nav {
     align-items: center;
 }
 
-#list, .listit, li, a {
+.listit, li, a {
     text-decoration: none;
     padding: 0;
 }

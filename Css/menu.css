@@ -12,12 +12,12 @@
   z-index: 100;
 }
 
+.h1name {
+  z-index: 100;
+}
+
 .nameh1 {
   color: #7E7E7E;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -126,7 +126,7 @@ nav {
           align-items: center;
 }
 
-#list, .listit, li, a {
+.listit, li, a {
   text-decoration: none;
   padding: 0;
 }
