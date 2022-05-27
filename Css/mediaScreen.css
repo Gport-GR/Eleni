@@ -61,9 +61,6 @@
   header {
     height: 45px;
   }
-  #myHeader {
-    height: 45px;
-  }
   nav {
     display: block;
     position: absolute;
@@ -111,7 +108,7 @@
     font-size: 0.9rem;
   }
   .menu {
-    height: 60px;
+    height: 45px;
   }
   .menu.show {
     height: 180px;
@@ -123,7 +120,6 @@
     background-size: contain;
     background-position: 0 30px;
     height: 210px;
-    margin-top: -10px;
   }
   .mainphoto.show {
     background-position: center;
@@ -208,7 +204,6 @@
     background-size: contain;
     background-position: 0 80px;
     height: 180px;
-    margin-top: -10px;
   }
 }
 /*# sourceMappingURL=mediaScreen.css.map */
