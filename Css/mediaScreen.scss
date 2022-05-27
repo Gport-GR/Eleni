@@ -81,8 +81,9 @@
         display: block;
         position: absolute;
         width: 100%;
-        margin-top: 60px;
+        margin-top: 0;
         height: 130px;
+        min-width: unset;
     }
 
     .list {
@@ -139,8 +140,7 @@
     }
 
     .mainphoto {
-        background-size: contain;
-        background-position: 0 30px;
+        background-position: 0 20px;
         height: 210px;
     }
 
@@ -152,7 +152,7 @@
     }
 
     .sticky + .mainphoto.show {
-        padding-top: 185px;
+        padding-top: 165px;
     }
 
     .par1 {
@@ -167,9 +167,22 @@
         padding-left: 10px;
     }
 
-    .sticky + .mainphoto {
-        padding-top: 65px;
+    .sticky+.mainphoto {
+        padding-top: 45px;
     }
+    
+    .sticky+.mainphoto-contact {
+        padding-top: 45px;
+    }
+    
+    .sticky+.mainphoto-bio {
+        padding-top: 45px;
+    }
+    
+    .sticky+.mainphoto-serv {
+        padding-top: 45px;
+    }
+
 
     .servises {
         height: 1500px;
@@ -235,7 +248,7 @@
 @media only screen and (max-width: 430px) {
     .mainphoto {
         background-size: contain;
-        background-position: 0 80px;
-        height: 180px;
+        background-position: 0 40px;
+        height: 170px;
     }
 }

@@ -42,6 +42,7 @@ nav {
     height: 47px;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    z-index: 1000;
 }
 
 .menu-btn_burger {
