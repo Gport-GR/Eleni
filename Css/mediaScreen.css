@@ -137,10 +137,11 @@
     padding-left: 10px;
   }
   .sticky + .mainphoto {
-    background-position: 0 190px;
+    background-position: 0 40px;
     padding-top: 50px;
   }
   .sticky + .mainphoto.show {
+    background-position: 0 210px;
     padding-top: 190px;
   }
   .sticky + .mainphoto-contact {
