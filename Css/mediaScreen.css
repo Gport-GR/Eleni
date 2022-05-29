@@ -140,8 +140,8 @@
   }
   .sticky + .mainphoto.show {
     background-size: contain;
-    background-position: 0 200px;
-    padding-top: 190px;
+    background-position: 0 210px;
+    padding-top: 210px;
   }
   .sticky + .mainphoto-contact {
     padding-top: 45px;
