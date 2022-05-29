@@ -1,4 +1,4 @@
- window.onscroll = function () { myFunction() };
+window.onscroll = function () { myFunction() };
 
     var header = document.getElementById("myHeader");
     var sticky = header.offsetTop;
@@ -28,9 +28,8 @@ const hamburger = document.getElementById('menu-btn');
     const navUL = document.getElementById('list');
     const menu = document.getElementById('myHeader');
     const photo = document.getElementById('mainphoto');
-    const photos = document.getElementById('mainphotoserv')
+    const photos = document.getElementById('mainphotoserv');
     const head = document.getElementById('head');
-    const nav = document.getElementById('nav')
 
     hamburger.addEventListener('click', () => {
         navUL.classList.toggle('show');
@@ -38,40 +37,8 @@ const hamburger = document.getElementById('menu-btn');
         photo.classList.toggle('show');
         photos.classList.toggle('show');
         head.classList.toggle('show');
-        nav.classList.toggle('show');
+        
     });
 
 
-
-
-
-
-/*var scrollAmount = document.getElementsByClassName('.menu').height;
-var element = document.getElementsByClassName('serv-button');
-
-element.addEventListener("click", scrollPage);
-
-function scrollPage() {
-    var currentPositionOfPage = window.scrollY;
-    window.scrollTo(0, currentPositionOfPage + scrollAmount);
-}
-
-
-
-
-let servButton = document.querySelector('.serv-button')
-servButton.addEventListener('click', () => {
-    function scrollWin();
-})
-
-function scrollWin() {
-  window.scrollBy(0, -1000);
-}
-
-
-function scrollWin() {
-  window.scrollBy(0, -1000);
-}
-
-*/
 
