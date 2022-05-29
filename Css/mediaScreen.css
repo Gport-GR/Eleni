@@ -64,7 +64,7 @@
     position: absolute;
     width: 100%;
     margin-top: 60px;
-    height: 130px;
+    height: auto;
     min-width: unset;
   }
   .list {
@@ -109,19 +109,19 @@
     height: 45px;
   }
   .menu.show {
-    height: 180px;
+    height: 220px;
   }
   header.show {
-    height: 200px;
+    height: 220px;
   }
   .mainphoto {
     background-size: contain;
-    background-position: 0 90px;
-    height: 210px;
+    background-position: 0 40px;
+    height: 200px;
   }
   .mainphoto.show {
+    background-position: 0 0;
     background-attachment: scroll;
-    background-position: center;
     background-size: cover;
     z-index: -10;
   }
@@ -136,11 +136,11 @@
     padding-left: 10px;
   }
   .sticky + .mainphoto {
-    background-position: 0 40px;
     padding-top: 50px;
   }
   .sticky + .mainphoto.show {
-    background-position: 0 210px;
+    background-size: contain;
+    background-position: 0 200px;
     padding-top: 190px;
   }
   .sticky + .mainphoto-contact {
@@ -210,7 +210,7 @@
 
 @media only screen and (max-width: 430px) {
   .mainphoto {
-    background-position: 0 40px;
+    background-position: 0 67px;
     height: 170px;
   }
 }
