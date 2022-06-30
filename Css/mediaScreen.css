@@ -114,12 +114,12 @@
   header.show {
     height: 220px;
   }
-  .mainphoto {
+  .mainphoto, .mainphoto-bio {
     background-size: contain;
     background-position: 0 40px;
     height: 200px;
   }
-  .mainphoto.show {
+  .mainphoto.show, .mainphoto-bio.show {
     background-position: 0 0;
     background-attachment: scroll;
     background-size: cover;
@@ -209,7 +209,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .mainphoto {
+  .mainphoto, .mainphoto-bio {
     background-position: 0 67px;
     height: 170px;
   }
