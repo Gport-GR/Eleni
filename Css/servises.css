@@ -54,6 +54,11 @@
   height: auto;
   padding-bottom: 10px;
 }
+@media only screen and (min-width: 780px) {
+  .serv1head {
+    height: 46px;
+  }
+}
 
 .serv1headh2 {
   color: #56A7DD;
@@ -79,7 +84,7 @@
 }
 
 .pserv {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 0.9rem;
 }
 @media only screen and (max-width: 1050px) {
