@@ -7,7 +7,7 @@
 }
 @media only screen and (max-width: 780px) {
   .servises {
-    height: 1500px;
+    height: auto;
   }
 }
 
@@ -51,7 +51,8 @@
 
 .serv1head {
   text-align: center;
-  height: 44px;
+  height: auto;
+  padding-bottom: 10px;
 }
 
 .serv1headh2 {
@@ -106,7 +107,7 @@
 }
 @media only screen and (max-width: 780px) {
   .serv1par {
-    height: 50px;
+    height: auto;
   }
 }
 
@@ -139,7 +140,7 @@
   }
 }
 
-.servise21, .servise22, .servise23 {
+.servisebox2 {
   width: 33%;
   display: flex;
   flex-direction: column;
