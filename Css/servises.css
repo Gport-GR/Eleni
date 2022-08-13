@@ -2,17 +2,13 @@
   background: url("../images/eleni01 (2).jpg");
   height: 700px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
-.servises01 {
-  color: #7E7E7E;
+@media only screen and (max-width: 780px) {
+  .servises {
+    height: 1500px;
+  }
 }
 
 .servises1 {
@@ -22,28 +18,35 @@
   text-align: center;
 }
 
-.servises101 {
+.servises1h2 {
+  color: #7E7E7E;
+}
+
+.servises1row {
   width: 70%;
   height: 50%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
+}
+@media only screen and (max-width: 780px) {
+  .servises1row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
 }
 
-.servise11, .servise12, .servise13, .servise14 {
+.servisebox {
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
+}
+@media only screen and (max-width: 780px) {
+  .servisebox {
+    width: 100%;
+  }
 }
 
 .serv1head {
@@ -51,12 +54,7 @@
   height: 44px;
 }
 
-.care {
-  height: 60px;
-  padding-top: 15px;
-}
-
-.h2serv {
+.serv1headh2 {
   color: #56A7DD;
   margin: 0;
   font-size: 1.1em;
@@ -64,18 +62,29 @@
   text-align: center;
 }
 
+.care {
+  height: 60px;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 780px) {
+  .care {
+    padding-top: 0;
+  }
+}
+
 .serv1img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .pserv {
-  font-size: .8rem;
-  line-height: .9rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+}
+@media only screen and (max-width: 1050px) {
+  .pserv {
+    font-size: 0.7rem;
+  }
 }
 
 .pserv02 {
@@ -85,10 +94,20 @@
 .serv1a {
   text-align: center;
 }
+@media only screen and (max-width: 780px) {
+  .serv1a {
+    padding-bottom: 33px;
+  }
+}
 
 .serv1par {
   text-align: center;
   height: 83px;
+}
+@media only screen and (max-width: 780px) {
+  .serv1par {
+    height: 50px;
+  }
 }
 
 .serv-button {
@@ -96,67 +115,55 @@
   border-radius: 1.2em;
   padding: 0.6em 1em;
   color: black;
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 1050px) {
+  .serv-button {
+    font-size: 0.6rem;
+  }
 }
 
-.servises2 {
+.servises2row {
   width: 55%;
   height: 50%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
+}
+@media only screen and (max-width: 780px) {
+  .servises2row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
 }
 
 .servise21, .servise22, .servise23 {
   width: 33%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .servises-i {
   height: auto;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .servises101-i {
   width: 70%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   height: auto;
 }
 
 .servise11-i, .servise12-i, .servise13-i, .servise14-i, .servise15-i, .servise16-i, .servise17-i {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: auto;
 }
 
@@ -166,9 +173,13 @@
   margin-top: -200px;
   padding-top: 200px;
 }
+@media only screen and (max-width: 1050px) {
+  .h2serv2 {
+    font-size: 0.9rem;
+  }
+}
 
 .serv1par-1 {
   height: auto;
   width: 100%;
-}
-/*# sourceMappingURL=servises.css.map */
+}/*# sourceMappingURL=servises.css.map */

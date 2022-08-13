@@ -1,6 +1,14 @@
 .menu {
     height: 80px;
     background-color: white;
+
+    @media only screen and (max-width: 780px) {
+        height: 45px;
+    }
+}
+
+.menu.show {
+    height: 220px;
 }
 
 #logoimg {
@@ -10,6 +18,17 @@
     border-radius: 10em;
     padding: 10px 1rem 1rem 1rem;
     z-index: 100;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: 14px;
+        height: 100px;
+    }
+
+    @media only screen and (max-width: 780px) {
+        height: 60px;
+        margin: 5px 10px;
+        padding: 10px .5rem .5rem .5rem;
+        }
 }
 
 
@@ -17,18 +36,42 @@
     color: #7E7E7E;
     align-items: center;
     font-size: 1.5rem;
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 1.4rem;
+    }
+
+    @media only screen and (max-width: 780px) {
+        font-size: 0.9rem;
+    }
 }
 
 header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    
+
+    @media only screen and (max-width: 780px) {
+        height: 45px;
+        }
+}
+
+header.show {
+    height: 220px;
 }
 
 nav {
     display: flex;
     min-width: 460px;
+
+    @media only screen and (max-width: 780px) {
+        display: block;
+        position: absolute;
+        width: 100%;
+        margin-top: 60px;
+        height: auto;
+        min-width: unset;
+        }
 }
 
 
@@ -44,6 +87,10 @@ nav {
     cursor: pointer;
     transition: all .5s ease-in-out;
     z-index: 1000;
+
+    @media only screen and (max-width: 780px) {
+        display: flex;
+        }
 }
 
 .menu-btn_burger {
@@ -95,6 +142,30 @@ nav {
     font-size: 1rem;
     font-weight: bold;
     align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media only screen and (max-width: 780px) {
+        display: none;
+        position: relative;
+        }
+}
+
+.list.show {
+    @media only screen and (max-width: 780px) {
+        background: #3498DB url('../images/eleni01\ \(2\).jpg');
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        z-index: 50;
+    }
 }
 
 .listit, li, a {
@@ -106,6 +177,15 @@ nav {
     margin-left: 10px;
     color: #3498DB;
     white-space: nowrap;
+
+    @media only screen and (max-width: 1050px) {
+        margin-left: .6rem;
+    }
+
+    @media only screen and (max-width: 780px) {
+        margin-left: 0;
+        line-height: 30px;
+        }
 }
 
 .listit:hover {
@@ -117,6 +197,10 @@ nav {
     border-radius: 10em;
     padding: 4px 22px;
     color: black;
+
+    @media only screen and (max-width: 780px) {
+        padding: 0.2em 1.1em;
+    }
 }
 
 .sticky {

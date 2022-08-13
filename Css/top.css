@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Zen Antique Soft', serif;
+  font-family: "Zen Antique Soft", serif;
 }
 
 #top1 {
@@ -8,24 +8,19 @@ body {
   width: 100%;
   background-color: #EEF1F3;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 780px) {
+  #top1 {
+    height: 45px;
+  }
 }
 
 #contact1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
   float: right;
   height: 50px;
@@ -34,21 +29,20 @@ body {
 .ul0 {
   margin: 0;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
 }
 
 #locationgif {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 11px;
   height: 22px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+}
+@media only screen and (max-width: 780px) {
+  #locationgif {
+    padding: 0;
+  }
 }
 
 .address {
@@ -56,21 +50,19 @@ body {
   font-size: 1rem;
   font-weight: bold;
   padding-left: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+}
+@media only screen and (max-width: 780px) {
+  .address {
+    margin: 0;
+    font-size: 0.6rem;
+  }
 }
 
 .ul1, .li1, .contact-tel, #phoneImg, #fbimg, .adress {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -82,24 +74,28 @@ body {
 }
 
 .contact2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 300px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+}
+@media only screen and (max-width: 780px) {
+  .contact2 {
+    margin-right: 5px;
+  }
 }
 
 .contact-tel {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-weight: bolder;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
   text-decoration: none;
   color: #8B7373;
+}
+@media only screen and (max-width: 780px) {
+  .contact-tel {
+    padding-right: 3px;
+  }
 }
 
 .contact-tel:hover {
@@ -113,5 +109,4 @@ body {
 
 #fbimg {
   padding-left: 30px;
-}
-/*# sourceMappingURL=top.css.map */
+}/*# sourceMappingURL=top.css.map */

@@ -11,6 +11,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: 780px) {
+        height: 45px;
+        }
 }
 
 #contact1 {
@@ -33,6 +37,10 @@ body {
     padding-top: 11px;
     height: 22px;
     align-items: center;
+
+    @media only screen and (max-width: 780px) {
+        padding: 0;
+        }
 }
 
 .address {
@@ -42,6 +50,11 @@ body {
     padding-left: 3px;
     display: flex;
     align-items: center;
+
+    @media only screen and (max-width: 780px) {
+        margin: 0;
+        font-size: .6rem;
+        }
 }
 
 .ul1, .li1, .contact-tel, #phoneImg, #fbimg, .adress {
@@ -61,6 +74,10 @@ body {
     display: flex;
     width: 300px;
     align-items: center;
+
+    @media only screen and (max-width: 780px) {
+        margin-right: 5px;
+    }
 }
 
 .contact-tel {
@@ -70,6 +87,10 @@ body {
     letter-spacing: 0.2rem;
     text-decoration: none;
     color: #8B7373;
+
+    @media only screen and (max-width: 780px) {
+        padding-right: 3px;
+        }
 }
 
 .contact-tel:hover {
