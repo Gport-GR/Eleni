@@ -5,6 +5,14 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 980px) {
+  .contact-main {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+}
 
 .contact-map {
   width: 600px;
@@ -13,10 +21,24 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 980px) {
+  .contact-map {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+  }
+}
 
 .informations {
   width: 600px;
   height: 500px;
+}
+@media only screen and (max-width: 980px) {
+  .informations {
+    width: auto;
+    margin: 40px 0;
+    height: auto;
+  }
 }
 
 .h2-contact {

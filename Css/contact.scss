@@ -4,6 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media only screen and (max-width: 980px) {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            height: auto;
+        }
 }
 
 
@@ -14,11 +21,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media only screen and (max-width: 980px) {
+            width: auto;
+            height: auto;
+            margin-top: 40px;
+        }
 }
 
 .informations {
     width: 600px;
     height: 500px;
+
+    @media only screen and (max-width: 980px) {
+        width: auto;
+        margin: 40px 0;
+        height: auto;
+    }
 }
 
 .h2-contact {
