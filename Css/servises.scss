@@ -158,7 +158,7 @@
 }
 
 
-.servises101-i {
+.servises-container {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -167,7 +167,7 @@
     height: auto;
 }
 
-.servise11-i, .servise12-i, .servise13-i, .servise14-i, .servise15-i, .servise16-i, .servise17-i{
+.serviseblock {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -175,16 +175,18 @@
 }
 
 
-.h2serv2 {
+.h2serv {
     color: #F14F3E;
     font-size: 1.5em;
     margin-top: -200px;
     padding-top: 200px;
+    text-align: center;
 
     @media only screen and (max-width: 1050px) {
         font-size: .9rem;
     }
 }
+
 
 .serv1par-1 {
     height: auto;
