@@ -1,0 +1,156 @@
+.servises {
+  background: url("../images/eleni01 (2).jpg");
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 780px) {
+  .servises {
+    height: auto;
+  }
+}
+
+.servises1 {
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.servises1h2 {
+  color: #7E7E7E;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.servises1row {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 780px) {
+  .servises1row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+}
+
+.servisebox {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 780px) {
+  .servisebox {
+    width: 100%;
+  }
+}
+
+.serv1head {
+  text-align: center;
+  height: auto;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 780px) {
+  .serv1head {
+    height: 46px;
+  }
+}
+
+.serv1headh2 {
+  color: #56A7DD;
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.1rem;
+  text-align: center;
+}
+
+.serv1img {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-serv {
+  height: 60px;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 780px) {
+  .photo-serv {
+    padding-top: 0;
+  }
+}
+
+.serv1par {
+  text-align: center;
+  height: 100px;
+}
+@media only screen and (max-width: 780px) {
+  .serv1par {
+    height: auto;
+  }
+}
+
+.pserv {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1320px) {
+  .pserv {
+    font-size: 0.7rem;
+  }
+}
+
+.serv1a {
+  text-align: center;
+}
+@media only screen and (max-width: 780px) {
+  .serv1a {
+    padding-bottom: 33px;
+  }
+}
+
+.serv-button {
+  background: #F16868;
+  border-radius: 1.2em;
+  padding: 0.6em 1em;
+  color: black;
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 1050px) {
+  .serv-button {
+    font-size: 0.6rem;
+  }
+}
+
+.servises2row {
+  width: 55%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 780px) {
+  .servises2row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+}
+
+.servisebox2 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 780px) {
+  .servisebox2 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main-servises.css.map */
