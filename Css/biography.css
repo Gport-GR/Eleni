@@ -1,16 +1,18 @@
 .biography {
+  margin: 1em auto;
   display: flex;
-  height: auto;
-  width: 100%;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .myphoto {
-  width: 30%;
+  width: 300px;
 }
 
 .mybio {
-  width: 70%;
+  max-width: 600px;
+  text-align: center;
+  padding-right: 12%;
 }
 
 .bio-par1 {

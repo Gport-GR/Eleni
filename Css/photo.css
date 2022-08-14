@@ -82,7 +82,7 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1080px) {
   .mainphoto-bio {
     background-size: contain;
     background-position: 0 40px;
@@ -167,6 +167,11 @@
   font-weight: bolder;
   color: #3498DB;
   margin: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .bio-par {
+    padding-top: 10px;
+  }
 }
 
 .contact-h2 {
