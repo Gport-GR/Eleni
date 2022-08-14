@@ -59,6 +59,19 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+@media only screen and (max-width: 600px) {
+  .mainphoto-serv {
+    background-size: contain;
+    background-position: 0 40px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .mainphoto-serv {
+    background-position: 0 67px;
+    height: 170px;
+  }
+}
 
 .mainphoto-bio {
   background: url("../images/bio.jpg");
@@ -97,6 +110,21 @@
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media only screen and (max-width: 780px) {
+  .mainphoto-contact {
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 0 40px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .mainphoto-contact {
+    background-position: 0 67px;
+    height: 170px;
+    background-attachment: fixed;
+  }
 }
 
 .par1 {
@@ -148,4 +176,14 @@
   font-size: 1.8rem;
   font-weight: bolder;
   color: white;
+}
+@media only screen and (max-width: 1580px) {
+  .contact-h2 {
+    padding: 200px 0 0 200px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .contact-h2 {
+    padding: 60px 0 0 130px;
+  }
 }/*# sourceMappingURL=photo.css.map */
