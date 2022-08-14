@@ -11,14 +11,17 @@
 }
 
 .servises1 {
-    width: 60%;
     height: 80px;
     margin: 0 auto;
     text-align: center;
+    align-items: center;
+    display: flex;
 }
 
 .servises1h2 {
     color: #7E7E7E;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .servises1h2-1 {
