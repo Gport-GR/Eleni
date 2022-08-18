@@ -35,6 +35,12 @@
   padding-top: 80px;
 }
 
+@media only screen and (max-width: 430px) {
+  .sticky + .mainphoto {
+    padding-top: 45px;
+  }
+}
+
 .mainphoto.show {
   background-position: 0 0;
   background-attachment: scroll;
