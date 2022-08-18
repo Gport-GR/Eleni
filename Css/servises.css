@@ -10,16 +10,28 @@
 .servises-container {
   width: 70%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: auto;
 }
 
 .serviseblock {
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: auto;
 }
 
@@ -30,9 +42,10 @@
   padding-top: 200px;
   text-align: center;
 }
+
 @media only screen and (max-width: 1050px) {
   .h2serv {
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
 }
 
@@ -43,4 +56,5 @@
 .pserv01 {
   font-size: 1.2rem;
   font-weight: 500;
-}/*# sourceMappingURL=servises.css.map */
+}
+/*# sourceMappingURL=servises.css.map */

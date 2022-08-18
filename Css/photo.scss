@@ -29,22 +29,55 @@
     padding-top: 50px;
 }
 
+.mainphoto.show {
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: -10;
+}
+
 .sticky+.mainphoto.show {
     background-size: contain;
     background-position: 0 210px;
     padding-top: 210px;
 }
 
-.sticky+.mainphoto-contact {
+.mainphotob {
+    background: url('../images/bio.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    @media only screen and (max-width: 1080px) {
+        background-size: contain;
+        background-position: 0 40px;
+        height: 200px;
+    }
+
+    @media only screen and (max-width: 430px) {
+        background-position: 0 67px;
+        height: 170px;
+    }
+}
+
+.sticky+.mainphotob {
     padding-top: 45px;
 }
 
-.sticky+.mainphoto-bio {
-    padding-top: 45px;
+.mainphotob.show {
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: -10;
 }
 
-.sticky+.mainphoto-serv {
-    padding-top: 45px;
+.sticky+.mainphotob.show {
+    background-size: contain;
+    background-position: 0 210px;
+    padding-top: 210px;
 }
 
 .mainphoto-serv {
@@ -68,35 +101,27 @@
     }
 }
 
-.mainphoto-bio {
-    background: url('../images/bio.jpg');
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: bottom;
-
-    @media only screen and (max-width: 1080px) {
-        background-size: contain;
-        background-position: 0 40px;
-        height: 200px;
-    }
-
-    @media only screen and (max-width: 430px) {
-        background-position: 0 67px;
-        height: 170px;
-    }
+.sticky+.mainphoto-serv {
+    padding-top: 45px;
 }
 
-.mainphoto.show, .mainphoto-bio.show {
+.mainphoto-serv.show {
     background-position: 0 0;
     background-attachment: scroll;
     background-size: cover;
     z-index: -10;
 }
 
+.sticky+.mainphoto-serv.show {
+    background-size: contain;
+    background-position: 0 210px;
+    padding-top: 210px;
+}
 
+
+.sticky+.mainphoto-contact {
+    padding-top: 45px;
+}
 
 .mainphoto-contact {
     background: url('../images/contact.jpg');
@@ -118,6 +143,23 @@
         height: 170px;
         background-attachment: fixed;
     }
+}
+
+.sticky+.mainphoto-contact {
+    padding-top: 45px;
+}
+
+.mainphoto-contact.show {
+    background-position: 0 0;
+    background-attachment: scroll;
+    background-size: cover;
+    z-index: -10;
+}
+
+.sticky+.mainphoto-contact.show {
+    background-size: contain;
+    background-position: 0 210px;
+    padding-top: 210px;
 }
 
 .par1 {
@@ -173,6 +215,10 @@
 
     @media only screen and (max-width: 1580px) {
         padding: 200px 0 0 200px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        padding: 100px 0 0 100px;
     }
     
     @media only screen and (max-width: 430px) {

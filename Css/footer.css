@@ -1,12 +1,18 @@
 .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 300px;
   background-color: #CADCDA;
 }
+
 @media only screen and (max-width: 780px) {
   .bottom {
     width: 100%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: auto;
   }
 }
@@ -15,6 +21,7 @@
   width: 22%;
   height: 100%;
 }
+
 @media only screen and (max-width: 780px) {
   .bottom0 {
     width: 100%;
@@ -34,10 +41,19 @@
 .logobottom {
   clear: both;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 20px;
 }
 
@@ -49,6 +65,7 @@
   width: 24%;
   height: 100%;
 }
+
 @media only screen and (max-width: 780px) {
   .bottom1 {
     width: 100%;
@@ -59,6 +76,7 @@
   width: 24%;
   height: 100%;
 }
+
 @media only screen and (max-width: 780px) {
   .bottom2 {
     width: 100%;
@@ -75,10 +93,19 @@
 .social-list {
   clear: both;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 10px;
 }
 
@@ -107,10 +134,19 @@
 .imgbutton {
   clear: both;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 10px;
 }
 
@@ -118,6 +154,7 @@
   padding-left: 10px;
   color: #3397DB;
 }
+
 @media only screen and (max-width: 780px) {
   .contact-tel2 {
     padding: 0;
@@ -139,14 +176,17 @@
 }
 
 .contact4 {
-  font-size: 0.8rem;
+  font-size: .8rem;
   color: #3498DB;
 }
 
 .bottom3 {
   width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 @media only screen and (max-width: 780px) {
   .bottom3 {
     width: 100%;
@@ -155,4 +195,5 @@
 
 .map {
   width: 100%;
-}/*# sourceMappingURL=footer.css.map */
+}
+/*# sourceMappingURL=footer.css.map */
