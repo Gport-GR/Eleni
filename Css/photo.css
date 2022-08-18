@@ -83,6 +83,12 @@
   padding-top: 80px;
 }
 
+@media only screen and (max-width: 430px) {
+  .sticky + .mainphotob {
+    padding-top: 45px;
+  }
+}
+
 .mainphotob.show {
   background-position: 0 0;
   background-attachment: scroll;
@@ -123,6 +129,12 @@
 
 .sticky + .mainphoto-serv {
   padding-top: 80px;
+}
+
+@media only screen and (max-width: 430px) {
+  .sticky + .mainphoto-serv {
+    padding-top: 45px;
+  }
 }
 
 .mainphoto-serv.show {
@@ -166,6 +178,12 @@
 
 .sticky + .mainphoto-contact {
   padding-top: 80px;
+}
+
+@media only screen and (max-width: 430px) {
+  .sticky + .mainphoto-contact {
+    padding-top: 45px;
+  }
 }
 
 .mainphoto-contact.show {

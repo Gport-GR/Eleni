@@ -68,6 +68,9 @@
 
 .sticky+.mainphotob {
     padding-top: 80px;
+    @media only screen and (max-width: 430px) {
+        padding-top: 45px;
+    }
 }
 
 .mainphotob.show {
@@ -106,6 +109,9 @@
 
 .sticky+.mainphoto-serv {
     padding-top: 80px;
+    @media only screen and (max-width: 430px) {
+        padding-top: 45px;
+    }
 }
 
 .mainphoto-serv.show {
@@ -145,6 +151,9 @@
 
 .sticky+.mainphoto-contact {
     padding-top: 80px;
+    @media only screen and (max-width: 430px) {
+        padding-top: 45px;
+    }
 }
 
 .mainphoto-contact.show {
