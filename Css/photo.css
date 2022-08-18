@@ -35,7 +35,7 @@
   padding-top: 80px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 780px) {
   .sticky + .mainphoto {
     padding-top: 45px;
   }
@@ -83,7 +83,7 @@
   padding-top: 80px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 780px) {
   .sticky + .mainphotob {
     padding-top: 45px;
   }
@@ -131,7 +131,7 @@
   padding-top: 80px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 780px) {
   .sticky + .mainphoto-serv {
     padding-top: 45px;
   }
@@ -180,7 +180,7 @@
   padding-top: 80px;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 780px) {
   .sticky + .mainphoto-contact {
     padding-top: 45px;
   }
