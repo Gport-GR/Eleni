@@ -1,27 +1,15 @@
 .contact-main {
   background-color: #eef1f3;
   height: 900px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 @media only screen and (max-width: 980px) {
   .contact-main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: auto;
   }
 }
@@ -29,17 +17,10 @@
 .contact-map {
   width: 600px;
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 @media only screen and (max-width: 980px) {
   .contact-map {
     width: auto;
@@ -52,7 +33,6 @@
   width: 600px;
   height: 500px;
 }
-
 @media only screen and (max-width: 980px) {
   .informations {
     width: auto;
@@ -70,16 +50,12 @@
 .contact-ul {
   margin: 0;
   padding: 10px 0 0 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
 }
 
 #placeholder {
   height: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 11px;
 }
@@ -98,8 +74,6 @@
 
 #mail-img {
   height: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -108,11 +82,6 @@
   font-size: 1rem;
   font-weight: bold;
   padding-left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-/*# sourceMappingURL=contact.css.map */
+  align-items: center;
+}/*# sourceMappingURL=contact.css.map */

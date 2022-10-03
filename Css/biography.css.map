@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,aAAa;CACjC;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,MAAM,CAAC;EACH,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,GAAG;CACrB;;AAED,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;CACnB",
-    "sources": [
-        "biography.scss"
-    ],
-    "names": [],
-    "file": "biography.css"
-}
+{"version":3,"sources":["biography.scss","biography.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,eAAA;EACA,8BAAA;ACCJ;;ADEA;EACI,YAAA;ACCJ;;ADEA;EACI,gBAAA;EACA,kBAAA;EACA,kBAAA;ACCJ;;ADEA;EACI,YAAA;EACA,iBAAA;EACA,gBAAA;ACCJ","file":"biography.css"}

@@ -2,15 +2,9 @@
   background: url("../images/eleni01 (2).jpg");
   height: 700px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media only screen and (max-width: 780px) {
   .servises {
     height: auto;
@@ -21,11 +15,7 @@
   height: 80px;
   margin: 0 auto;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
 }
 
@@ -39,40 +29,23 @@
   width: 70%;
   height: 50%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 @media only screen and (max-width: 780px) {
   .servises1row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: auto;
   }
 }
 
 .servisebox {
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media only screen and (max-width: 780px) {
   .servisebox {
     width: 100%;
@@ -84,7 +57,6 @@
   height: auto;
   padding-bottom: 10px;
 }
-
 @media only screen and (min-width: 780px) {
   .serv1head {
     height: 46px;
@@ -100,19 +72,14 @@
 }
 
 .serv1img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .photo-serv {
   height: 60px;
   padding-top: 15px;
 }
-
 @media only screen and (max-width: 780px) {
   .photo-serv {
     padding-top: 0;
@@ -123,7 +90,6 @@
   text-align: center;
   height: 100px;
 }
-
 @media only screen and (max-width: 780px) {
   .serv1par {
     height: auto;
@@ -134,17 +100,15 @@
   font-size: 0.9rem;
   font-weight: 600;
 }
-
 @media only screen and (max-width: 1320px) {
   .pserv {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }
 
 .serv1a {
   text-align: center;
 }
-
 @media only screen and (max-width: 780px) {
   .serv1a {
     padding-bottom: 33px;
@@ -156,12 +120,11 @@
   border-radius: 1.2em;
   padding: 0.6em 1em;
   color: black;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
-
 @media only screen and (max-width: 1050px) {
   .serv-button {
-    font-size: .6rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -169,43 +132,25 @@
   width: 55%;
   height: 50%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 @media only screen and (max-width: 780px) {
   .servises2row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: auto;
   }
 }
 
 .servisebox2 {
   width: 33%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media only screen and (max-width: 780px) {
   .servisebox2 {
     width: 100%;
   }
-}
-/*# sourceMappingURL=main-servises.css.map */
+}/*# sourceMappingURL=main-servises.css.map */

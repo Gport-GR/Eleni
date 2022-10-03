@@ -1,13 +1,8 @@
 .biography {
   margin: 1em auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .myphoto {
@@ -24,5 +19,4 @@
   color: black;
   font-size: 1.2rem;
   font-weight: 400;
-}
-/*# sourceMappingURL=biography.css.map */
+}/*# sourceMappingURL=biography.css.map */
