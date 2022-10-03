@@ -13,6 +13,11 @@
     max-width: 600px;
     text-align: center;
     padding-right: 12%;
+    @media only screen and (max-width: 780px) {
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
 }
 
 .bio-par1 {
